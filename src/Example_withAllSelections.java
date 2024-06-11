@@ -38,6 +38,13 @@ public class Example_withAllSelections extends JFrame{
                             }
                         }
                     );
-                    
+                        tela.add(painelRolagem);
+                        tela.add(exibir);
+                        setSize(400, 250);
+                        setVisible(true);
                     };
+            public static void main(String[] args) {
+                Example_withAllSelections app = new Example_withAllSelections();
+                app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
 }
